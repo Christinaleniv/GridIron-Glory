@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #fefefe;
+  background-color: #111111;
+  padding: 30px;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  color: #fefefe;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 20%;
+}
+
+section {
+  margin-bottom: 20px;
+  background-color: #858585;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.dashed-line {
+  border-bottom: 1px dashed #ccc;
+  margin: 20px auto;
+  padding-bottom: 20px;
+}
+
+.clients {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.clients p:first-child {
+  font-size: 3rem;
+  color: #fefefe;
+}
+
+.highlight {
+  font-size: 1.7rem;
+}
+
+section h2 {
+  color: #007bff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.projects {
+  margin-top: 40px;
+}
+
+.projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects li {
+  margin-bottom: 10px;
+}
+
+.locations {
+  margin-top: 40px;
+  text-align: center;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+
+  h1,
+  h2 {
+    font-size: 2rem;
+  }
+
+  .dashed-line {
+    width: 80%;
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.image-container img {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+footer {
+  background-color: #e31e3c;
+  color: #fefefe;
+  border: 3px solid #858585;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 17px rgba(161, 124, 250, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+footer:hover {
+  background-color: #c41935;
+}
